@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="head">
+        <h1 class="title">Dojonary</h1>
+        <div class="search">
+            <input type="text" name="search" placeholder="Search">
+        </div>
+        <button class="login" onclick="log_switch(this)">Login</button>
+    </div>
+<div id="middle">    
+    <div id= "ninjabox">
+        <div class="ninjabox_1">
+            <div class="word">
+                <h1 class="word_1">ninja</h1>
+                <h4>noun</h4>
+                <p>Plural: <em>ninjas</em></p>
+                <button  class="like_btn" onclick="message()">13 Likes</button>
+            </div>
+            <p class="definition">A practitioner skilled in the <span id="s1">Japanese</span> art of <span id=s1>ninjutsu</span></p>
+        </div>
+        <div class="ninjabox_2">        
+            <div class="word">
+                <h1 class="word_1">ninja</h1>
+                <h4>noun</h4>
+                <p>Plural: <em>ninjas</em></p>
+                <button class="like_btn" onclick="message()">37 Likes</button>
+            </div>
+            <p class="definition">A <span id=s1>programmer</span> who breaks down problems with <span id=s1>zen</span>-like focus</p>
+        </div>
+    </div>
+    <div id="add_def">
+        <h3>Dojonary is defined by YOU</h3> 
+        <button id="def_btn" onclick="add_def()">Add Definition</button>
+    </div>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

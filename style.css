@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    font-family: cursive;
+}
+body{
+    background-color: gainsboro;
+}
+/* heading */
+
+#head{
+    background-color: darkgray;
+    display: flex;
+    height: 75px;
+    margin-left: 105px;
+    width: 750px;
+}
+
+.title{
+    text-indent: 35px;
+    padding-top: 10px;
+}
+
+.search {
+    margin: 25px;
+    padding-left: 55px ;
+}
+
+.login{
+    background-color: darkorange;
+    box-shadow: 3px 3px black;
+    height: 35px;
+    margin: 20px;
+    margin-left: 70px;
+    width: 85px;
+}
+
+/* body boxes */
+
+#middle{
+    display: flex;
+}
+
+#ninjabox{
+    display: flex;
+    flex-direction: column;
+}
+
+.ninjabox_1, .ninjabox_2{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    display: flex;
+    height: 175px;
+    margin-left: 105px;
+    margin-top: 45px;
+    width: 450px;
+}
+
+.word{
+    flex-direction: column;
+}
+.word_1{
+    margin: 25px 30px 5px 25px;
+}
+
+h4{
+    margin: 0 0 0 45px;
+}
+
+p{
+    font-weight: bold;
+    margin: 0 0 0 15px;
+}
+
+.definition{
+    font-size: large;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#s1{
+    color: blue;
+    text-decoration: underline blue;
+}
+
+.like_btn{
+    background-color: darkorange;
+    box-shadow: 3px 3px black;
+    margin: 5px 0 0 20px;
+    height: 35px;
+    width: 85px;
+}
+
+#add_def{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    height: 140px;
+    margin: 45px;
+    width: 240px;
+}
+
+h3{
+    margin: 15px 15px
+}
+
+#def_btn{
+    background-color: darkorchid;
+    box-shadow: 3px 3px black;
+    color: white;
+    height: 35px;
+    margin-left: 10px;
+    width: 220px;
+}
